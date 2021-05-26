@@ -9,18 +9,18 @@ const Home = () => {
       <div className="content">
         <Navbar />
         <div className="image-container">
-          <Background className="background-images" />
+          <Background className="background-images background" />
         </div>
-        <div className="text-container">
+        <div className="text-container home-text-container">
+          <h1>Mateusz Dziuba</h1>
           <div className="text-box">
             <div className="left">
-              <h1>Mateusz Dziuba</h1>
               <p>Front-End Developer in the making.</p>
             </div>
             <div className="right">
               <p>
                 I'm an Aerospace Engineer who discovered a passion for
-                programming
+                programming.
               </p>
             </div>
           </div>

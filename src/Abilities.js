@@ -6,16 +6,16 @@ const Abilities = () => {
   return (
     <section className="Abilities">
       <div className="content">
-        <div className="image-container">
+        <div className="image-container background">
           <BackgroundImages className="abilities-image-container" />
         </div>
         <header>
           <h2>Abilities</h2>
         </header>
-        <div className="text-container">
+        <div className="text-container background abilities-text-container">
           <div className="skills">
             <h3>Skills</h3>
-            <div className="abilities-text-container">
+            <div className="abilities-text-section">
               <div className="abilities-text">Python</div>
               <div className="abilities-text">JavaScript</div>
               <div className="abilities-text">HTML(5)</div>
@@ -25,7 +25,7 @@ const Abilities = () => {
           </div>
           <div className="tools">
             <h3>Tools</h3>
-            <div className="abilities-text-container">
+            <div className="abilities-text-section">
               <div className="abilities-text">WebStorm</div>
               <div className="abilities-text">AdobeXD</div>
               <div className="abilities-text">MS Office</div>
@@ -34,7 +34,7 @@ const Abilities = () => {
           </div>
           <div className="languages">
             <h3>Languages</h3>
-            <div className="abilities-text-container">
+            <div className="abilities-text-section">
               <div className="abilities-text">Polish</div>
               <div className="abilities-text">English</div>
               <div className="abilities-text">German</div>

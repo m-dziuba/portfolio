@@ -5,7 +5,11 @@
   width: 100%;
   overflow-x: clip;
 }
-.image-container{
+.background {
+  pointer-events: none;
+}
+
+.image-container {
   position: absolute;
   width: 100%;
   overflow-x: hidden;
@@ -25,14 +29,18 @@
   box-sizing: border-box;
   top: 0;
   width: 100%;
-  padding: 18em 12.5vw;
   z-index: 2;
+  padding: 0 12.5vw;
   color: white;
+}
+.home-text-container{
+  padding-top: 18em;
+  padding-bottom: 18em;
 }
 
 .text-box {
   display: flex;
-  min-height: 260px;
+  min-height: 180px;
 }
 
 .left {
@@ -71,6 +79,10 @@ button {
   left: 50%;
   margin-left: -67.0955px;
   cursor: pointer;
+}
+
+button:hover {
+  z-index: 5;
 }
 
 

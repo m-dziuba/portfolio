@@ -16,7 +16,11 @@ h3 {
   font-weight: 300;
 }
 
-.abilities-text-container {
+.abilities-text-section {
   display: flex;
   gap: 5em
+}
+.abilities-text-container {
+  padding-top: 10em;
+  padding-bottom: 10em;
 }
