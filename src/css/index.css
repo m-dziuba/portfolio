@@ -29,5 +29,9 @@ body, html {
 }
 
 .Abilities {
-
+  position: relative;
+  padding: 0;
+  top: 0;
+  background: #9C029F;
+  height: 100vh;
 }
