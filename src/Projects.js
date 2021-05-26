@@ -1,5 +1,6 @@
 import "./css/projects.css";
 import { ReactComponent as BackgroundImages } from "./assets/projects-section/stars.svg";
+import { ReactComponent as Scroll } from "./assets/projects-section/call-to-action-scroll.svg";
 
 const Projects = () => {
   return (
@@ -32,6 +33,9 @@ const Projects = () => {
             </div>
           </div>
         </div>
+        <button>
+          <Scroll />
+        </button>
       </div>
     </section>
   );
