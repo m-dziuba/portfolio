@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+body, html {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  font-family: Poppins, sans-serif;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  /*grid-template-rows: 100vh 100vh 100vh 100vh;*/
+}
+
+.Home {
+  margin: 0;
+  padding: 0;
+  background: #49044B;
+  height: 100vh;
+}
+
+.Projects {
+  position: relative;
+  padding: 0;
+  top: 0;
+  background: transparent linear-gradient(0deg, rgba(155, 0, 158, 1) 0%, rgba(73, 4, 75, 1) 100%) 0 0 no-repeat padding-box;
+  height: 100vh;
+}
+
+.Abilities {
+
+}

@@ -1,0 +1,20 @@
+nav {
+  position: relative;
+  width: 100%;
+  background: #5C005E;
+  z-index: 5;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.55em;
+  font-weight: 400;
+  padding: 1.45em 0.9em;
+}

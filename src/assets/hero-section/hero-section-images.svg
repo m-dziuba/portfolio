@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2548" height="1093" viewBox="0 0 2548 1093">
+  <g id="background-imgs" transform="translate(527 -12)">
+    <g id="stars" transform="translate(277 189)">
+      <circle id="star" cx="2" cy="2" r="2" transform="translate(548 285)" fill="#fff"/>
+      <circle id="star" cx="2" cy="2" r="2" transform="translate(448 203)" fill="#fff"/>
+      <circle id="star" cx="2" cy="2" r="2" transform="translate(0 35)" fill="#fff"/>
+      <circle id="star" cx="2" cy="2" r="2" transform="translate(516 417)" fill="#fff"/>
+      <circle id="star" cx="2" cy="2" r="2" transform="translate(625 436)" fill="#fff"/>
+      <circle id="star" cx="2" cy="2" r="2" transform="translate(1128 218)" fill="#fff"/>
+      <circle id="star" cx="2" cy="2" r="2" transform="translate(1475 51)" fill="#fff"/>
+      <circle id="star" cx="2" cy="2" r="2" transform="translate(1006 472)" fill="#fff"/>
+      <circle id="star" cx="2" cy="2" r="2" transform="translate(788)" fill="#fff"/>
+      <circle id="star" cx="2" cy="2" r="2" transform="translate(497 602)" fill="#fff"/>
+      <circle id="star" cx="2" cy="2" r="2" transform="translate(159 814)" fill="#fff"/>
+    </g>
+    <g id="planet-left" transform="translate(1073 427)">
+      <circle id="planet" cx="302" cy="302" r="302" transform="translate(344)" fill="#270029"/>
+      <circle id="moon-far" cx="18" cy="18" r="18" transform="translate(0 248)" fill="#fff" opacity="0.6"/>
+      <circle id="moon-close" cx="39" cy="39" r="39" transform="translate(151 408)" fill="#fff" opacity="0.8"/>
+    </g>
+    <g id="planet-top" transform="translate(1196 12)">
+      <circle id="planet-2" cx="159" cy="159" r="159" fill="#650068"/>
+      <circle id="moon" cx="15" cy="15" r="15" transform="translate(332 303)" fill="#fff" opacity="0.44"/>
+    </g>
+    <g id="planet-right" transform="translate(-527 325)">
+      <circle id="planet-3" cx="390" cy="390" r="390" fill="#3b003d"/>
+      <g id="moon-close-2" transform="translate(942 433)" fill="#fff" stroke="#707070" stroke-width="1" opacity="0.3">
+        <circle cx="28" cy="28" r="28" stroke="none"/>
+        <circle cx="28" cy="28" r="27.5" fill="none"/>
+      </g>
+      <g id="moon-far-2" transform="translate(1163 250)" fill="#fff" stroke="#707070" stroke-width="1" opacity="0.2">
+        <circle cx="14" cy="14" r="14" stroke="none"/>
+        <circle cx="14" cy="14" r="13.5" fill="none"/>
+      </g>
+    </g>
+  </g>
+</svg>
