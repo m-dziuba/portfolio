@@ -1,5 +1,6 @@
 import "./css/abilities.css";
 import { ReactComponent as BackgroundImages } from "./assets/abilities-section/background-images.svg";
+import { ReactComponent as Scroll } from "./assets/abilities-section/call-to-action-scroll.svg";
 
 const Abilities = () => {
   return (
@@ -14,17 +15,35 @@ const Abilities = () => {
         <div className="text-container">
           <div className="skills">
             <h3>Skills</h3>
-            <div className="skills-text">aaa</div>
+            <div className="abilities-text-container">
+              <div className="abilities-text">Python</div>
+              <div className="abilities-text">JavaScript</div>
+              <div className="abilities-text">HTML(5)</div>
+              <div className="abilities-text">CSS(3)</div>
+              <div className="abilities-text">Bootstrap</div>
+            </div>
           </div>
           <div className="tools">
             <h3>Tools</h3>
-            <div className="skills-text">aaa</div>
+            <div className="abilities-text-container">
+              <div className="abilities-text">WebStorm</div>
+              <div className="abilities-text">AdobeXD</div>
+              <div className="abilities-text">MS Office</div>
+              <div className="abilities-text">Git</div>
+            </div>
           </div>
           <div className="languages">
             <h3>Languages</h3>
-            <div className="skills-text">aaa</div>
+            <div className="abilities-text-container">
+              <div className="abilities-text">Polish</div>
+              <div className="abilities-text">English</div>
+              <div className="abilities-text">German</div>
+            </div>
           </div>
         </div>
+        <button>
+          <Scroll />
+        </button>
       </div>
     </section>
   );

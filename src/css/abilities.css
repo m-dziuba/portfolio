@@ -1,4 +1,22 @@
 .abilities-image-container {
-  margin-left: -400px;
+  margin-left: -330px;
   margin-top: -200px;
+  position: relative;
+  z-index: 1;
+}
+
+h3 {
+  font-size: 3.1em;
+  font-weight: 400;
+  margin-bottom: 0.5em;
+}
+
+.abilities-text {
+  font-size: 1.9em;
+  font-weight: 300;
+}
+
+.abilities-text-container {
+  display: flex;
+  gap: 5em
 }
