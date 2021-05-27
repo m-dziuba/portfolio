@@ -1,12 +1,11 @@
-import "./css/projects.css";
 import { ReactComponent as BackgroundImages } from "./assets/projects-section/stars.svg";
 import { ReactComponent as Scroll } from "./assets/projects-section/call-to-action-scroll.svg";
 
 const Projects = () => {
   return (
-    <section className="Projects">
+    <section className="Projects portfolio">
       <div className="content">
-        <div className="image-container background">
+        <div className="image-container">
           <BackgroundImages />
         </div>
         <header>

@@ -1,11 +1,10 @@
 import { ReactComponent as BackgroundImages } from "./assets/about-section/background-images.svg";
-import "./css/about.css";
 
 const About = () => {
   return (
-    <section className="About">
+    <section className="About portfolio">
       <div className="content">
-        <div className="about-image-container background">
+        <div className="image-container about-image-container">
           <BackgroundImages className="about-images" />
         </div>
         <header>
@@ -32,6 +31,7 @@ const About = () => {
             exploration, all kinds of engines, rockets and other Aerospace
             technologies.
           </div>
+          <button className="cv about-text">Curriculum Vitae (PDF)</button>
         </div>
       </div>
     </section>

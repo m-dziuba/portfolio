@@ -1,15 +1,14 @@
 import Navbar from "./Navbar";
-import "./css/home.css";
 import { ReactComponent as Background } from "./assets/hero-section/hero-section-images.svg";
 import { ReactComponent as Scroll } from "./assets/hero-section/call-to-action-scroll.svg";
 
 const Home = () => {
   return (
-    <section className="Home">
+    <section className="Home portfolio">
       <div className="content">
         <Navbar />
         <div className="image-container">
-          <Background className="background-images background" />
+          <Background className="background-images" />
         </div>
         <div className="text-container home-text-container">
           <h1>Mateusz Dziuba</h1>

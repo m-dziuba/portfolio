@@ -1,12 +1,11 @@
-import "./css/abilities.css";
 import { ReactComponent as BackgroundImages } from "./assets/abilities-section/background-images.svg";
 import { ReactComponent as Scroll } from "./assets/abilities-section/call-to-action-scroll.svg";
 
 const Abilities = () => {
   return (
-    <section className="Abilities">
+    <section className="Abilities portfolio">
       <div className="content">
-        <div className="image-container background">
+        <div className="image-container">
           <BackgroundImages className="abilities-image-container" />
         </div>
         <header>
