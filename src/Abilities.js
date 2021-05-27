@@ -6,12 +6,12 @@ const Abilities = () => {
     <section className="Abilities portfolio">
       <div className="content">
         <div className="image-container">
-          <BackgroundImages className="abilities-image-container" />
+          <BackgroundImages className="background-images abilities-images" />
         </div>
         <header>
           <h2>Abilities</h2>
         </header>
-        <div className="text-container background abilities-text-container">
+        <div className="text-container abilities-text-container">
           <div className="skills">
             <h3>Skills</h3>
             <div className="abilities-text-section">
@@ -40,7 +40,7 @@ const Abilities = () => {
             </div>
           </div>
         </div>
-        <button>
+        <button className="scroll-action-button">
           <Scroll />
         </button>
       </div>

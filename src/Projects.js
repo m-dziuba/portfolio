@@ -6,7 +6,7 @@ const Projects = () => {
     <section className="Projects portfolio">
       <div className="content">
         <div className="image-container">
-          <BackgroundImages />
+          <BackgroundImages className="background-images" />
         </div>
         <header>
           <h2>Projects</h2>
@@ -32,7 +32,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <button>
+        <button className="scroll-action-button">
           <Scroll />
         </button>
       </div>

@@ -8,11 +8,11 @@ const Home = () => {
       <div className="content">
         <Navbar />
         <div className="image-container">
-          <Background className="background-images" />
+          <Background className="background-images home-images" />
         </div>
         <div className="text-container home-text-container">
           <h1>Mateusz Dziuba</h1>
-          <div className="text-box">
+          <div className="home-text">
             <div className="left">
               <p>Front-End Developer in the making.</p>
             </div>
@@ -25,7 +25,7 @@ const Home = () => {
           </div>
         </div>
 
-        <button>
+        <button className="scroll-action-button">
           <Scroll />
         </button>
       </div>
