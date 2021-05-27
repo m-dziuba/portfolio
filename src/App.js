@@ -1,5 +1,4 @@
-import { Abilities, About, Home, Projects } from "./components";
-import { Burger, Menu } from "./components";
+import { Abilities, About, Home, Projects, SideBar } from "./components";
 import { GlobalStyles } from "./global";
 import { useRef, useState } from "react";
 import { useOnClickOutside } from "./hooks";
@@ -10,14 +9,13 @@ function App() {
   const [open, setOpen] = useState(false);
   return (
     <>
-      <GlobalStyles />
       <div ref={node}>
-        <Burger open={open} setOpen={setOpen} />
-        <Menu open={open} setOpen={setOpen} />
+        <SideBar open={open} setOpen={setOpen} />
       </div>
+      <GlobalStyles />
       <Home />
-      <Projects />
-      <Abilities />
+      <Projects id="projects" />
+      <Abilities id="abilities" />
       <About />
     </>
   );
