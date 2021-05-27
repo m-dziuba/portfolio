@@ -20,6 +20,5 @@ export const StyledAbilities = styled.section`
 
   .abilities-text-container {
     padding-top: 10em;
-    padding-bottom: 10em;
   }
 `;

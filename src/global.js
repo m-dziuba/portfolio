@@ -51,8 +51,16 @@ export const GlobalStyles = createGlobalStyle`
   }
 
   button {
+    position: relative;
     background: none;
     cursor: pointer;
+    z-index: 5;
+  }
+  
+  li{
+    list-style: none;
+    padding: 0;
+    margin: 0;
   }
 
   .content {
