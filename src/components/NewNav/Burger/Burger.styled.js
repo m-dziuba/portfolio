@@ -1,9 +1,7 @@
 import styled from "styled-components";
 
 export const StyledBurger = styled.button`
-  position: fixed;
-  top: 7.5%;
-  right: 7.5%;
+  top: 0;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -14,12 +12,16 @@ export const StyledBurger = styled.button`
   padding: 0;
   margin: 0;
   z-index: 10;
+  transition: transform 0.5s ease-in-out;
+  transform: ${({ open }) => (open ? "translateY(-50%)" : "translateY(25vh)")};
 
   &:focus {
     outline: none;
   }
 
   div {
+    left: 0.4em;
+    align-self: center;
     width: 4em;
     height: 0.4em;
     background: #fff;
@@ -27,7 +29,7 @@ export const StyledBurger = styled.button`
     border-radius: 10px;
     position: relative;
     transition: all 0.3s linear;
-    transform-origin: 4px;
+    transform-origin: 6px;
 
     :first-child {
       transform: ${({ open }) => (open ? "rotate(45deg)" : "rotate(0)")};
