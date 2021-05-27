@@ -37,6 +37,7 @@ body, html {
 .About {
   height: 1050px;
   background: transparent linear-gradient(180deg, #9B009E 0%, #49044B 100%) 0 0 no-repeat padding-box;
+  overflow: hidden;
 }
 
 /* NAVBAR */
@@ -96,6 +97,19 @@ p {
 
 button {
   background: none;
+  cursor: pointer;
+}
+
+/* CLASSES FOR ALL*/
+.content {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+.scroll-action-button {
+  background: none;
   border: none;
   position: absolute;
   z-index: 0;
@@ -104,19 +118,6 @@ button {
   margin-left: -67.0955px;
   cursor: pointer;
 }
-
-button:hover {
-  z-index: 5;
-}
-
-/* CLASSES FOR ALL*/
-.content {
-  top: 0;
-  left: 0;
-  width: 100%;
-  overflow-x: clip;
-}
-
 .image-container {
   position: absolute;
   width: 100%;
@@ -128,8 +129,6 @@ button:hover {
 
 .background-images {
   position: relative;
-  top: -4em;
-  left: -33em;
   z-index: 1;
 }
 
@@ -139,18 +138,22 @@ button:hover {
   top: 0;
   width: 100%;
   z-index: 2;
-  padding: 0 12.5vw;
+  padding: 0 15vw;
   color: white;
 }
 
 /* CLASSES FOR HOME */
+.home-images {
+  top: -4em;
+  left: -33em;
+}
 
 .home-text-container {
   padding-top: 18em;
   padding-bottom: 18em;
 }
 
-.text-box {
+.home-text {
   display: flex;
   min-height: 180px;
 }
@@ -217,11 +220,9 @@ button:hover {
 
 /* CLASSES FOR ABILITIES */
 
-.abilities-image-container {
+.abilities-images {
   margin-left: -330px;
   margin-top: -200px;
-  position: relative;
-  z-index: 1;
 }
 
 .abilities-text {
@@ -243,28 +244,21 @@ button:hover {
 
 .about-image-container {
   display: flex;
-  justify-content: center;
-  height: 100%;
+  flex-direction: column;
+  align-items: center;
   overflow: hidden;
 }
 
 .about-images {
-  margin-top: 5em;
-  position: absolute;
-  z-index: 1;
+  margin-top: 15vh;
 }
 
 .about-text-container {
   display: flex;
   flex-direction: column;
   align-content: center;
-  position: absolute;
-  box-sizing: border-box;
-  top: 0;
-  width: 100%;
-  padding: 15em 12.5vw;
-  color: white;
-  z-index: 2;
+  padding-top: 15em;
+  padding-bottom: 15em;
 
 }
 
@@ -277,13 +271,63 @@ button:hover {
 .cv {
   border-radius: 135px;
   border: white 2px solid;
-  max-width: 35%;
-  min-width: 25%;
+  width: 400px;
   position: static;
   text-align: center;
   align-self: center;
   color: white;
   font-size: 1.8em;
-  padding: 0;
+  padding: 0.3em;
   margin: 2em 0 0;
+}
+
+.contact-me {
+  position: absolute;
+  width: 100%;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  align-items: center;
+  bottom: -0.5em;
+  color: black;
+}
+.contact-me-text {
+  font-size: 1.7em;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.email {
+  margin-top: 1.3em;
+  font-size: 1.3em;
+  font-weight: 400;
+}
+.logos {
+  width: 400px;
+  height: 64px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 1em;
+}
+.logo-button{
+  border: none;
+}
+.back-to-top {
+  border:none;
+  padding-top: 2em;
+}
+
+/* SVG */
+#planet-left1 {
+  transform: translate(56.5vw, 427px);
+}
+
+#about-background-images {
+  /*transform-origin: 50% 0;*/
+}
+
+@media only screen and  (min-width: 1300px){
+
 }

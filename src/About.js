@@ -1,16 +1,20 @@
 import { ReactComponent as BackgroundImages } from "./assets/about-section/background-images.svg";
+import { ReactComponent as Linkedin } from "./assets/about-section/linkedin-logo.svg";
+import { ReactComponent as Github } from "./assets/about-section/GitHub-Mark-64px.svg";
+import { ReactComponent as Facebook } from "./assets/about-section/f_logo_RGB-Black_58.svg";
+import { ReactComponent as Scroll } from "./assets/about-section/call-to-action-scroll.svg";
 
 const About = () => {
   return (
     <section className="About portfolio">
       <div className="content">
         <div className="image-container about-image-container">
-          <BackgroundImages className="about-images" />
+          <BackgroundImages className="background-images about-images" />
         </div>
         <header>
           <h2>About</h2>
         </header>
-        <div className="about-text-container">
+        <div className="text-container about-text-container">
           <div className="about-text">
             I'm an Aerospace Engineer, trying my best to break into the
             programming world.
@@ -32,6 +36,24 @@ const About = () => {
             technologies.
           </div>
           <button className="cv about-text">Curriculum Vitae (PDF)</button>
+        </div>
+        <div className="contact-me">
+          <div className="contact-me-text">contact me</div>
+          <div className="email">mateusz.dziuba97@gmail.com</div>
+          <div className="logos">
+            <button className="logo-button">
+              <Linkedin />
+            </button>
+            <button className="logo-button">
+              <Github />
+            </button>
+            <button className="logo-button">
+              <Facebook />
+            </button>
+          </div>
+          <button className="back-to-top">
+            <Scroll />
+          </button>
         </div>
       </div>
     </section>
