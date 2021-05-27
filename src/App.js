@@ -1,16 +1,17 @@
-import Home from "./pages/Home";
-import Projects from "./pages/Projects";
-import Abilities from "./pages/Abilities";
-import About from "./pages/About";
+import { Abilities, About, Home, Projects } from "./components";
+import { GlobalStyles } from "./global";
 
 function App() {
   return (
-    <div className="App">
-      <Home />
-      <Projects />
-      <Abilities />
-      <About />
-    </div>
+    <>
+      <GlobalStyles />
+      <div className="App">
+        <Home />
+        <Projects />
+        <Abilities />
+        <About />
+      </div>
+    </>
   );
 }
 

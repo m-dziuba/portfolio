@@ -1,13 +1,15 @@
+import { StyledNavbar } from "./Navbar.styled";
+
 const Navbar = () => {
   return (
-    <nav className="navbar">
+    <StyledNavbar>
       <div className="links">
         <a href="/">Home</a>
         <a href="/">Projects</a>
         <a href="/">Abilities</a>
         <a href="/">About</a>
       </div>
-    </nav>
+    </StyledNavbar>
   );
 };
 

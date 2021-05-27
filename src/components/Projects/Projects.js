@@ -1,9 +1,10 @@
-import { ReactComponent as BackgroundImages } from "../assets/projects-section/stars.svg";
-import { ReactComponent as Scroll } from "../assets/projects-section/call-to-action-scroll.svg";
+import { ReactComponent as BackgroundImages } from "../../assets/projects-section/stars.svg";
+import { ReactComponent as Scroll } from "../../assets/projects-section/call-to-action-scroll.svg";
+import { StyledProjects } from "./Projects.styled";
 
 const Projects = () => {
   return (
-    <section className="Projects portfolio">
+    <StyledProjects>
       <div className="content">
         <div className="image-container">
           <BackgroundImages className="background-images" />
@@ -36,7 +37,7 @@ const Projects = () => {
           <Scroll />
         </button>
       </div>
-    </section>
+    </StyledProjects>
   );
 };
 export default Projects;

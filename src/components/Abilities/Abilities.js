@@ -1,9 +1,10 @@
-import { ReactComponent as BackgroundImages } from "../assets/abilities-section/background-images.svg";
-import { ReactComponent as Scroll } from "../assets/abilities-section/call-to-action-scroll.svg";
+import { ReactComponent as BackgroundImages } from "../../assets/abilities-section/background-images.svg";
+import { ReactComponent as Scroll } from "../../assets/abilities-section/call-to-action-scroll.svg";
+import { StyledAbilities } from "./Abilities.styled";
 
 const Abilities = () => {
   return (
-    <section className="Abilities portfolio">
+    <StyledAbilities>
       <div className="content">
         <div className="image-container">
           <BackgroundImages className="background-images abilities-images" />
@@ -44,7 +45,7 @@ const Abilities = () => {
           <Scroll />
         </button>
       </div>
-    </section>
+    </StyledAbilities>
   );
 };
 

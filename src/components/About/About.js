@@ -1,12 +1,13 @@
-import { ReactComponent as BackgroundImages } from "../assets/about-section/background-images.svg";
-import { ReactComponent as Linkedin } from "../assets/about-section/linkedin-logo.svg";
-import { ReactComponent as Github } from "../assets/about-section/GitHub-Mark-64px.svg";
-import { ReactComponent as Facebook } from "../assets/about-section/f_logo_RGB-Black_58.svg";
-import { ReactComponent as Scroll } from "../assets/about-section/call-to-action-scroll.svg";
+import { ReactComponent as BackgroundImages } from "../../assets/about-section/background-images.svg";
+import { ReactComponent as Linkedin } from "../../assets/about-section/linkedin-logo.svg";
+import { ReactComponent as Github } from "../../assets/about-section/GitHub-Mark-64px.svg";
+import { ReactComponent as Facebook } from "../../assets/about-section/f_logo_RGB-Black_58.svg";
+import { ReactComponent as Scroll } from "../../assets/about-section/call-to-action-scroll.svg";
+import { StyledAbout } from "./About.styled";
 
 const About = () => {
   return (
-    <section className="About portfolio">
+    <StyledAbout>
       <div className="content">
         <div className="image-container about-image-container">
           <BackgroundImages className="background-images about-images" />
@@ -56,7 +57,7 @@ const About = () => {
           </button>
         </div>
       </div>
-    </section>
+    </StyledAbout>
   );
 };
 
