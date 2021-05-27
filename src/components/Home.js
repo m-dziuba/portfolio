@@ -1,6 +1,6 @@
 import Navbar from "./Navbar";
-import { ReactComponent as Background } from "./assets/hero-section/hero-section-images.svg";
-import { ReactComponent as Scroll } from "./assets/hero-section/call-to-action-scroll.svg";
+import { ReactComponent as Background } from "../assets/hero-section/hero-section-images.svg";
+import { ReactComponent as Scroll } from "../assets/hero-section/call-to-action-scroll.svg";
 
 const Home = () => {
   return (

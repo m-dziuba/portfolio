@@ -1,7 +1,7 @@
-import Home from "./Home";
-import Projects from "./Projects";
-import Abilities from "./Abilities";
-import About from "./About";
+import Home from "./components/Home";
+import Projects from "./components/Projects";
+import Abilities from "./components/Abilities";
+import About from "./components/About";
 
 function App() {
   return (

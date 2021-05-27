@@ -1,5 +1,5 @@
-import { ReactComponent as BackgroundImages } from "./assets/projects-section/stars.svg";
-import { ReactComponent as Scroll } from "./assets/projects-section/call-to-action-scroll.svg";
+import { ReactComponent as BackgroundImages } from "../assets/projects-section/stars.svg";
+import { ReactComponent as Scroll } from "../assets/projects-section/call-to-action-scroll.svg";
 
 const Projects = () => {
   return (

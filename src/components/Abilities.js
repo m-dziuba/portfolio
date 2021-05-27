@@ -1,5 +1,5 @@
-import { ReactComponent as BackgroundImages } from "./assets/abilities-section/background-images.svg";
-import { ReactComponent as Scroll } from "./assets/abilities-section/call-to-action-scroll.svg";
+import { ReactComponent as BackgroundImages } from "../assets/abilities-section/background-images.svg";
+import { ReactComponent as Scroll } from "../assets/abilities-section/call-to-action-scroll.svg";
 
 const Abilities = () => {
   return (
