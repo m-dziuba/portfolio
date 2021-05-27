@@ -6,7 +6,7 @@ const Abilities = () => {
   return (
     <StyledAbilities>
       <div className="content">
-        <div className="image-container">
+        <div className="image-container" id="abilities">
           <BackgroundImages className="background-images abilities-images" />
         </div>
         <header>

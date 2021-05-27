@@ -4,10 +4,10 @@ const Navbar = () => {
   return (
     <StyledNavbar>
       <div className="links">
-        <a href="/">Home</a>
-        <a href="/">Projects</a>
-        <a href="/">Abilities</a>
-        <a href="/">About</a>
+        <a href="#home">Home</a>
+        <a href="#projects">Projects</a>
+        <a href="#abilities">Abilities</a>
+        <a href="#about">About</a>
       </div>
     </StyledNavbar>
   );

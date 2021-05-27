@@ -5,7 +5,7 @@ import { StyledProjects } from "./Projects.styled";
 const Projects = () => {
   return (
     <StyledProjects>
-      <div className="content">
+      <div className="content" id="projects">
         <div className="image-container">
           <BackgroundImages className="background-images" />
         </div>

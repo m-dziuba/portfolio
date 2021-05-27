@@ -8,7 +8,7 @@ import { StyledAbout } from "./About.styled";
 const About = () => {
   return (
     <StyledAbout>
-      <div className="content">
+      <div className="content" id="about">
         <div className="image-container about-image-container">
           <BackgroundImages className="background-images about-images" />
         </div>
