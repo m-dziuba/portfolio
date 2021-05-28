@@ -1,12 +1,19 @@
 import styled from "styled-components";
 export const StyledMenu = styled.ul`
   width: 100%;
-  height: 100%;
+  height: 50vh;
   margin: 0;
   padding: 0;
   z-index: 5;
   transition: transform 0.5s ease-in-out;
   transform: ${({ open }) => (open ? "translateX(0%)" : "translateX(150%)")};
+  border-radius: 35px;
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: rgba(0, 0, 0, 0.5) 0 0 4px, inset rgba(0, 0, 0, 0.5) 0px -1px 2px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
 
   a {
     text-decoration: none;
@@ -26,15 +33,5 @@ export const StyledMenu = styled.ul`
   }
 
   .links {
-    height: 100%;
-    width: 100%;
-    border-radius: 35px;
-    background: rgba(255, 255, 255, 0.05);
-    box-shadow: rgba(0, 0, 0, 0.5) 0 0 4px,
-      inset rgba(0, 0, 0, 0.5) 0px -1px 2px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-direction: column;
   }
 `;
