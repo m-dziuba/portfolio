@@ -7,12 +7,13 @@ function App() {
   const node = useRef();
   useOnClickOutside(node, () => setOpen(false));
   const [open, setOpen] = useState(false);
+
   return (
     <>
+      <GlobalStyles />
       <div ref={node}>
         <SideBar open={open} setOpen={setOpen} />
       </div>
-      <GlobalStyles />
       <Home />
       <Projects id="projects" />
       <Abilities id="abilities" />
