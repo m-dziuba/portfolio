@@ -4,9 +4,9 @@ import { StyledAbilities } from "./Abilities.styled";
 
 const Abilities = () => {
   return (
-    <StyledAbilities>
+    <StyledAbilities className="section">
       <div className="content">
-        <div className="image-container" id="abilities">
+        <div className="image-container">
           <BackgroundImages className="background-images abilities-images" />
         </div>
         <header>

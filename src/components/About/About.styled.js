@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 export const StyledAbout = styled.section`
-  height: 1050px;
   background: transparent linear-gradient(180deg, #9b009e 0%, #49044b 100%) 0 0
     no-repeat padding-box;
   overflow: hidden;
@@ -14,7 +13,7 @@ export const StyledAbout = styled.section`
   }
 
   .about-images {
-    margin-top: 15vh;
+    margin-top: 5vh;
   }
 
   .about-text-container {
@@ -29,19 +28,6 @@ export const StyledAbout = styled.section`
     margin-bottom: 1.25em;
     text-align: justify;
     font-size: 1.25em;
-  }
-
-  .cv {
-    border-radius: 135px;
-    border: white 2px solid;
-    width: 400px;
-    position: static;
-    text-align: center;
-    align-self: center;
-    color: white;
-    font-size: 1.8em;
-    padding: 0.3em;
-    margin: 2em 0 0;
   }
 
   .contact-me {

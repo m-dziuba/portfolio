@@ -5,7 +5,7 @@ import { StyledHome } from "./Home.styled";
 
 const Home = () => {
   return (
-    <StyledHome id="home">
+    <StyledHome className="section">
       <div className="content">
         <Navbar />
         <div className="image-container">

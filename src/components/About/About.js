@@ -7,8 +7,8 @@ import { StyledAbout } from "./About.styled";
 
 const About = () => {
   return (
-    <StyledAbout>
-      <div className="content" id="about">
+    <StyledAbout className="section">
+      <div className="content">
         <div className="image-container about-image-container">
           <BackgroundImages className="background-images about-images" />
         </div>
@@ -36,7 +36,6 @@ const About = () => {
             exploration, all kinds of engines, rockets and other Aerospace
             technologies.
           </div>
-          <button className="cv about-text">Curriculum Vitae (PDF)</button>
         </div>
         <div className="contact-me">
           <div className="contact-me-text">contact me</div>
