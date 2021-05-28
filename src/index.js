@@ -1,12 +1,25 @@
+import App from "./App";
 import React from "react";
 import ReactDOM from "react-dom";
-import "./css/index.css";
+import ReactFullpage from "@fullpage/react-fullpage";
 
-import App from "./App";
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById("root")
+const Fullpage = () => (
+  <ReactFullpage
+    //fullpage options
+    licenseKey={"YOUR_KEY_HERE"}
+    scrollingSpeed={1000}
+    anchors={["home", "projects", "abilities", "about"]}
+    menu={"#sideMenu"}
+    fixedElements={".navbar"}
+    render={({ state, fullpageApi }) => {
+      return (
+        <ReactFullpage.Wrapper>
+          <App />
+        </ReactFullpage.Wrapper>
+      );
+    }}
+  />
 );
+
+ReactDOM.render(<Fullpage />, document.getElementById("react-root"));
