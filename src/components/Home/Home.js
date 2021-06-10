@@ -3,7 +3,7 @@ import { ReactComponent as Background } from "../../assets/hero-section/hero-sec
 import { ReactComponent as Scroll } from "../../assets/hero-section/call-to-action-scroll.svg";
 import { StyledHome } from "./Home.styled";
 
-const Home = () => {
+const Home = (props) => {
   return (
     <StyledHome className="section">
       <div className="content">
@@ -26,7 +26,10 @@ const Home = () => {
           </div>
         </div>
 
-        <button className="scroll-action-button">
+        <button
+          className="scroll-action-button"
+          onClick={() => props.fullpageApi.moveSectionDown()}
+        >
           <Scroll />
         </button>
       </div>

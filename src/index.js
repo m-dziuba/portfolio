@@ -1,8 +1,6 @@
 import App from "./App";
-import React from "react";
 import ReactDOM from "react-dom";
 import ReactFullpage from "@fullpage/react-fullpage";
-
 
 const Fullpage = () => (
   <ReactFullpage
@@ -10,12 +8,15 @@ const Fullpage = () => (
     licenseKey={"YOUR_KEY_HERE"}
     scrollingSpeed={1000}
     anchors={["home", "projects", "abilities", "about"]}
-    menu={"#sideMenu"}
-    fixedElements={".navbar"}
+    fixedElements={"#sideBar"}
+    // menu={"#sideBar"}
+    navigation={true}
+    navigationTooltips={["Home", "Projects", "Abilities", "About"]}
     render={({ state, fullpageApi }) => {
+      console.log(state);
       return (
         <ReactFullpage.Wrapper>
-          <App />
+          <App fullpageApi={fullpageApi} />
         </ReactFullpage.Wrapper>
       );
     }}

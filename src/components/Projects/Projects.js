@@ -2,7 +2,7 @@ import { ReactComponent as BackgroundImages } from "../../assets/projects-sectio
 import { ReactComponent as Scroll } from "../../assets/projects-section/call-to-action-scroll.svg";
 import { StyledProjects } from "./Projects.styled";
 
-const Projects = () => {
+const Projects = (props) => {
   return (
     <StyledProjects className="section">
       <div className="content">
@@ -33,7 +33,10 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <button className="scroll-action-button">
+        <button
+          className="scroll-action-button"
+          onClick={() => props.fullpageApi.moveSectionDown()}
+        >
           <Scroll />
         </button>
       </div>

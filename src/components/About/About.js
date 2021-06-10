@@ -5,7 +5,7 @@ import { ReactComponent as Facebook } from "../../assets/about-section/f_logo_RG
 import { ReactComponent as Scroll } from "../../assets/about-section/call-to-action-scroll.svg";
 import { StyledAbout } from "./About.styled";
 
-const About = () => {
+const About = (props) => {
   return (
     <StyledAbout className="section">
       <div className="content">
@@ -51,7 +51,10 @@ const About = () => {
               <Facebook />
             </button>
           </div>
-          <button className="back-to-top">
+          <button
+            className="back-to-top"
+            onClick={() => props.fullpageApi.moveTo("home")}
+          >
             <Scroll />
           </button>
         </div>

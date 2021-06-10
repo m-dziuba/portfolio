@@ -1,7 +1,7 @@
 import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyles = createGlobalStyle`
-  @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
 
   body, html {
     display: flex;
@@ -56,8 +56,8 @@ export const GlobalStyles = createGlobalStyle`
     cursor: pointer;
     z-index: 5;
   }
-  
-  li{
+
+  li {
     list-style: none;
     padding: 0;
     margin: 0;
@@ -105,4 +105,35 @@ export const GlobalStyles = createGlobalStyle`
     padding: 0 15vw;
     color: white;
   }
+  
+  body.fp-viewing-home {
+    #fp-nav {
+      transform: translateX(10vw);
+    }
+  }
+
+  #fp-nav {
+    transition: transform 1s ease-in-out;
+    
+    ul {
+      li {
+        a {
+          span {
+            background: white;
+          }
+        }
+
+        .fp-tooltip {
+          font-family: Poppins, sans-serif;
+          top: -11px;
+          font-size: 20px;
+          font-weight: 400;
+        }
+      }
+    }
+  }
+  #fp-nav.fp-right{
+      right: 5vw;
+    }
+
 `;

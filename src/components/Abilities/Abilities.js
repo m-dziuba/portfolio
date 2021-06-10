@@ -2,7 +2,7 @@ import { ReactComponent as BackgroundImages } from "../../assets/abilities-secti
 import { ReactComponent as Scroll } from "../../assets/abilities-section/call-to-action-scroll.svg";
 import { StyledAbilities } from "./Abilities.styled";
 
-const Abilities = () => {
+const Abilities = (props) => {
   return (
     <StyledAbilities className="section">
       <div className="content">
@@ -41,7 +41,10 @@ const Abilities = () => {
             </div>
           </div>
         </div>
-        <button className="scroll-action-button">
+        <button
+          className="scroll-action-button"
+          onClick={() => props.fullpageApi.moveSectionDown()}
+        >
           <Scroll />
         </button>
       </div>
