@@ -27,7 +27,7 @@ export const StyledProjects = styled.section`
   .feature {
     margin-left: 7.5%;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     text-align: center;
     vertical-align: center;
     width: 85%;
@@ -46,5 +46,49 @@ export const StyledProjects = styled.section`
     border-radius: 50%;
     background: white;
     color: black;
+  }
+  @media (max-width: 1100px) {
+    .projects {
+      flex-wrap: wrap;
+      justify-content: space-around;
+      height: 65vh;
+      padding: 2em 12.5vw;
+    }
+    .project {
+      width: 25vw;
+      //padding: 0 4em;
+    }
+
+    .feature {
+      margin: 0;
+      width: 100%;
+      padding-top: 100%;
+    }
+    h4 {
+      margin-top: 0;
+    }
+    .title {
+      font-size: 2.5vw;
+    }
+  }
+  @media (max-width: 880px) {
+    .project {
+      width: 30vw;
+    }
+  }
+  @media (max-width: 750px) {
+    .project {
+      width: 35vw;
+    }
+  }
+  @media (max-width: 600px) {
+    .title {
+      font-size: 19px;
+    }
+  }
+  @media (max-width: 320px) {
+    .title {
+      font-size: 16px;
+    }
   }
 `;

@@ -1,6 +1,6 @@
 import Navbar from "../TopNavbar/index";
 import { ReactComponent as Background } from "../../assets/hero-section/hero-section-images.svg";
-import { ReactComponent as Scroll } from "../../assets/hero-section/call-to-action-scroll.svg";
+import { ReactComponent as Scroll } from "../../assets/call-to-action-scroll.svg";
 import { StyledHome } from "./Home.styled";
 
 const Home = (props) => {

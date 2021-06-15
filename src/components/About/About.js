@@ -16,11 +16,11 @@ const About = (props) => {
           <h2>About</h2>
         </header>
         <div className="text-container about-text-container">
-          <div className="about-text">
+          <div className="about-text average-important">
             I'm an Aerospace Engineer, trying my best to break into the
             programming world.
           </div>
-          <div className="about-text">
+          <div className="about-text less-important">
             My first exposure to programming was during the first semester of my
             degree at Warsaw University of Technology and ever since I've been
             interested in becoming a programmer my self.
@@ -31,7 +31,7 @@ const About = (props) => {
             ones. My focus is to become a Front-End Developer and transition to
             Back-End or Full-Stack in the future.{" "}
           </div>
-          <div className="about-text">
+          <div className="about-text less-important">
             I'm also very interested in Machine Learning, AI, cosmos
             exploration, all kinds of engines, rockets and other Aerospace
             technologies.

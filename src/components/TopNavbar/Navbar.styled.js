@@ -19,4 +19,20 @@ export const StyledNavbar = styled.nav`
     justify-content: center;
     gap: 2em;
   }
+  @media (max-width: 620px) {
+    a {
+      font-size: 3.5vw;
+      padding: 1em 0.45em;
+    }
+  }
+  @media screen and (max-width: 500px) {
+    a {
+      font-size: 16px;
+      //padding: 0.5em 0.45em;
+    }
+    .links {
+      gap: normal;
+      justify-content: space-around;
+    }
+  }
 `;

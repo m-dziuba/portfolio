@@ -63,6 +63,10 @@ export const GlobalStyles = createGlobalStyle`
     margin: 0;
   }
 
+  nav {
+    width: 100%;
+  }
+
   .content {
     top: 0;
     left: 0;
@@ -78,7 +82,7 @@ export const GlobalStyles = createGlobalStyle`
     z-index: 0;
     bottom: 1em;
     left: 50%;
-    margin-left: -67.0955px;
+        margin-left: -61.3665px;
     cursor: pointer;
   }
 
@@ -89,6 +93,7 @@ export const GlobalStyles = createGlobalStyle`
     top: 0;
     left: 0;
     pointer-events: none;
+    z-index: 0;
   }
 
   .background-images {
@@ -105,7 +110,10 @@ export const GlobalStyles = createGlobalStyle`
     padding: 0 15vw;
     color: white;
   }
-  
+  .call-to-action-scroll {
+    width: 70%;
+  }
+
   body.fp-viewing-home {
     #fp-nav {
       transform: translateX(10vw);
@@ -114,7 +122,7 @@ export const GlobalStyles = createGlobalStyle`
 
   #fp-nav {
     transition: transform 1s ease-in-out;
-    
+
     ul {
       li {
         a {
@@ -132,8 +140,85 @@ export const GlobalStyles = createGlobalStyle`
       }
     }
   }
-  #fp-nav.fp-right{
-      right: 5vw;
+
+  #fp-nav.fp-right {
+    right: 5vw;
+  }
+
+  @media screen and (max-width: 1400px) {
+    h1 {
+      margin-bottom: 1em;
     }
+  }
+
+  @media (max-width: 1100px) {
+    header {
+      margin-top: 2em;
+    }
+  }
+
+  @media screen and (max-width: 920px) {
+    h1 {
+      font-size: 8vw;
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+    h1 {
+      margin-bottom: 1em;
+    }
+    h3{
+      margin-top: 0.5em;
+      margin-bottom: 0.25em;
+    }
+
+    p {
+      font-size: 25px;
+    }
+  }
+
+  @media screen and (max-width: 700px) {
+    h1 {
+      font-size: 40px;
+    }
+    h2 {
+      font-size: 35px;
+    }
+
+    h3 {
+      margin-top: 0.5em;
+      font-size: 30px;
+    }
+    h4{
+      font-size: 25px;
+    }
+
+    p {
+      font-size: 20px;
+    }
+  }
+
+  @media screen and (max-width: 380px) {
+    p {
+      font-size: 18px;
+    }
+  }
+  
+  @media screen and (max-width: 320px) {
+    h4{
+      margin-bottom: 0;
+    }
+    p {
+      font-size: 16px;
+    }
+    .call-to-action-scroll{
+      width: 50%;
+    }
+    button{
+      height: 70px;
+    }
+    
+  }
+
 
 `;

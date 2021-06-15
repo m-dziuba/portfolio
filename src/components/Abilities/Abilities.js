@@ -1,5 +1,5 @@
 import { ReactComponent as BackgroundImages } from "../../assets/abilities-section/background-images.svg";
-import { ReactComponent as Scroll } from "../../assets/abilities-section/call-to-action-scroll.svg";
+import { ReactComponent as Scroll } from "../../assets/call-to-action-scroll.svg";
 import { StyledAbilities } from "./Abilities.styled";
 
 const Abilities = (props) => {

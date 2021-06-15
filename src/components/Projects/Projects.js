@@ -1,5 +1,5 @@
 import { ReactComponent as BackgroundImages } from "../../assets/projects-section/stars.svg";
-import { ReactComponent as Scroll } from "../../assets/projects-section/call-to-action-scroll.svg";
+import { ReactComponent as Scroll } from "../../assets/call-to-action-scroll.svg";
 import { StyledProjects } from "./Projects.styled";
 
 const Projects = (props) => {
@@ -14,22 +14,27 @@ const Projects = (props) => {
         </header>
         <div className="projects">
           <div className="project">
-            <h4 className="title">Sorting algorithm</h4>
-            <div className="feature">
-              <div className="feature-content">A</div>
+            <div className="right">
+              <h4 className="title">Sorting algorithm</h4>
+              <div className="feature">
+                <div className="feature-content">A</div>
+              </div>
             </div>
           </div>
           <div className="project">
-            <h4 className="title">Cooking helper</h4>
-            <div className="feature">
-              <div className="feature-content">A</div>
+            <div className="middle">
+              <h4 className="title">Cooking helper</h4>
+              <div className="feature">
+                <div className="feature-content">A</div>
+              </div>
             </div>
           </div>
           <div className="project">
-            <h4 className="title">Web scraper</h4>
-
-            <div className="feature">
-              <div className="feature-content">A</div>
+            <div className="left">
+              <h4 className="title">Web scraper</h4>
+              <div className="feature">
+                <div className="feature-content">A</div>
+              </div>
             </div>
           </div>
         </div>

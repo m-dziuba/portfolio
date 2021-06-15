@@ -7,9 +7,9 @@ export const StyledHome = styled.section`
     top: -4em;
     left: -33em;
   }
+
   .home-text-container {
-    padding-top: 18em;
-    padding-bottom: 18em;
+    padding-top: 25vh;
   }
 
   .home-text {
@@ -30,5 +30,16 @@ export const StyledHome = styled.section`
   .right > * {
     position: absolute;
     bottom: 0;
+  }
+
+  @media screen and (max-width: 1400px) {
+    .home-text {
+      flex-direction: column;
+    }
+  }
+  @media screen and (max-width: 320px) {
+    .home-text {
+      min-height: 140px;
+    }
   }
 `;
